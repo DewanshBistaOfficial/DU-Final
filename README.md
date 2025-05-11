@@ -9,7 +9,7 @@ This project is a two-part data science workflow focused on generating synthetic
 
 ## Contents
 
-### 📁 `Data Gen.ipynb`
+### `Data Gen.ipynb`
 This notebook is responsible for generating and formatting synthetic market data, using APIs and randomization techniques.
 
 **Key Features:**
@@ -27,7 +27,7 @@ This notebook is responsible for generating and formatting synthetic market data
 
 ---
 
-### 📁 `Data Analysis.ipynb`
+### `Data Analysis.ipynb`
 This notebook focuses on analyzing the generated data and applying machine learning techniques to predict market behavior.
 
 **Main Tasks:**
