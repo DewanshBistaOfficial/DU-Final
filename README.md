@@ -68,7 +68,7 @@ When generating the data, similar prompts could lead to collinearity, this was s
 
 Another challenge is dealing with ‘hallucinations’ since GPT has no verification mechanism for it’s answers, the trick was to not ask it factual questions but more qualitative ones
 
-Since GPT does not answer questions in a standardized format, there were issues extracting the exact answers needed from the response text this was partially solved by adding in a formatting line but not fully
+Since GPT does not answer questions in a standardized format, there were issues extracting the exact answers needed from the response text this was partially solved by adding in a formatting line
 
 This project was limited to using GPT related data using different LLM systems, especially without content filters may have led to different results
 
