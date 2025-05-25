@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project presents a two-phase data science pipeline focused on synthetic feature generation and stock market movement prediction. By integrating language model prompting techniques and traditional machine learning workflows, the project explores a novel approach to financial data augmentation and classification modeling.
+This project presents a two-phase data science pipeline focused on synthetic feature generation and stock market movement prediction. By integrating language model prompting techniques and traditional machine learning workflows, the project explores a novel approach to financial data augmentation.
 
 ## Project Explanation
 
