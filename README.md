@@ -19,6 +19,8 @@ Finally the algorithm interjects a core prompt, which will dynamically read thro
 
 Finally the algorithm sends the prompt to the ChatGPT API for a response, and will repeat this process several times for each different “core prompt” in the array. 
 
+These core prompts were intentionally crafted in such a way that they were supposed to give a recommendation of whether the price of a stock would change, in the way that a human expert may have
+
 After all the iterations are done the result are several synthetic features which can then used as input for machine learning models aimed at analyzing and forecasting stock price behavior.
 
 An example of contextual prefixes shown below:
@@ -51,7 +53,7 @@ These models are fairly interesting as both models did not perform well however,
 
 This project was limited to using GPT related data using different LLM systems, especially without content filters may have led to different results
 
-Similarly the project only looked into tech stock, if looking at different security classes or stock types may have led to similarly different results
+Similarly the project only looked into technology company based stock, if looking at different security classes or stock types may have led to similarly different results
 
 This project partially failed in objectives because the LLM data augmentation was used to replace what is normally complex human reccomendations, it seems that when using GPT generated data it may be better to stick to more simple questions
 
