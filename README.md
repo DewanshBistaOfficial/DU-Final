@@ -3,7 +3,23 @@
 
 ## Overview
 
-This project is a two-part data science workflow focused on generating synthetic market data and performing predictive analysis to determine the direction of market movements. It includes data collection and transformation, exploratory analysis, and the implementation of machine learning models for classification.
+This project presents a two-phase data science pipeline focused on synthetic feature generation and stock market movement prediction. By integrating language model prompting techniques and traditional machine learning workflows, the project explores a novel approach to financial data augmentation and classification modeling.
+
+## Project Explanation
+
+This project leverages ChatGPT for synthetic feature generation through prompt engineering. 
+
+The algorithm begins iterating through a dataset created by combining various API Calls to the Polygon API holding various information about a stock.
+
+On each phase of iteration the algorithm then selects from a wide variety of  prompt introduction prefixes for each prompt as well as changing the “temperature” a preset parameter for the output of the model, this is useful for enhancing the quality and uniqueness of each feature.
+
+The next step that the algorithm uses is to add an output line. This line helps structure the output of each prompt, making it more easily compatible with tabular datasets that it later needs to be refined into.
+
+Finally the algorithm interjects a core prompt, which will dynamically read through the Polygon dataset and include both the target stock ticker and date of interest.
+
+Finally the algorithm sends the prompt to the ChatGPT API for a response, and will repeat this process several times for each different “core prompt” in the array. 
+
+After all the iterations are done the result are several synthetic features which can then used as input for machine learning models aimed at analyzing and forecasting stock price behavior.
 
 ---
 
