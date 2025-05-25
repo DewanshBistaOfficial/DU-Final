@@ -28,7 +28,7 @@ An example of contextual prefixes shown below:
 
 When generating the data, similar prompts could lead to collinearity, this was solved by adjusting the temperature, as well as changing prompt introductions
 
-Another challenge is dealing with ‘hallucinations’ since GPT has no verification mechanism for it’s answers, the trick was to not ask it factual questions but more qualitative ones
+Another challenge was dealing with ‘hallucinations’ since GPT has no verification mechanism for it’s answers, the trick was to not ask it factual questions but more qualitative ones
 
 Since GPT does not answer questions in a standardized format, there were issues extracting the exact answers needed from the response text this was partially solved by adding in a formatting line
 
@@ -42,7 +42,7 @@ As shown below one of the biggest issues with the features created was the fact 
 
 The models used to make the predictions were the Random Forest Algorithm and Logistic Regression, they were chosen due to their speed, as well as the small size of the dataset
 
-These models are fairly interesting as both models did not perform well however, an accuracy of 50% suggest that the model is doing the equivalent of blindly guessing as the outcome has 2 options, this is somewhat to be expected when looking at earlier data and seeing how the outcomes skewed to one result in the generated feature, this is further corroborated when looking at the recall scores of both models, the extreme scores almost 0 and 1 respectively, suggesting something fishy with the given data
+These models are fairly interesting as both models did not perform well however, an accuracy of 50% suggest that the model is doing the equivalent of blindly guessing as the outcome has 2 options, this is somewhat to be expected when looking at earlier data and seeing how the outcomes skewed to one result in the generated feature, this is further corroborated when looking at the recall scores of both models, the extreme scores almost 0 and 1 respectively, suggesting something wrong with the given data
 
 ![image](https://github.com/user-attachments/assets/c7647384-014f-47bb-8a63-bdf4452aabe6)
 ![image](https://github.com/user-attachments/assets/f2ccb237-bf15-48e5-8ec2-cbcdbc461c14)
